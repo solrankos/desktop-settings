@@ -1,0 +1,12 @@
+# Prompt
+PS1="%K{blue}%F{white} %n%F{green} at %F{white}%m %F{green}in %F{white}%1/ %F{green}%# %K{default}%F{default} "
+
+# Aliases
+alias rc="vim ~/.zshrc"
+alias ..="cd .."
+alias ls="ls -A --color"
+alias ll="ls -lhA --color"
+alias dietpi="ssh dietpi@192.168.1.100"
+alias linode="ssh oscar@139.144.189.205 -p 39"
+
+export LANG=en_US.UTF-8
