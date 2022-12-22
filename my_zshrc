@@ -1,8 +1,12 @@
 # Prompt
-PS1="%K{blue}%F{white} %n%F{green} at %F{white}%m %F{green}in %F{white}%1/ %F{green}%# %K{default}%F{default} "
+echo "export CLICOLOR=1" >> ~/.zshrc
+echo "export LSCOLORS=xfFxCxDxBxegedabagaced" >> ~/.zshrc
+PS1="%F{green}%n%F{white} at %F{green}%m %F{white}in %F{cyan}%1/ %F{white}%# %F{default}"
 
 # Aliases
+alias clr="clear"
 alias rc="vim ~/.zshrc"
+alias myrc="vim ~/workspace/desktop-settings/my_zshrc"
 alias ..="cd .."
 alias ls="ls -A --color"
 alias ll="ls -lhA --color"
